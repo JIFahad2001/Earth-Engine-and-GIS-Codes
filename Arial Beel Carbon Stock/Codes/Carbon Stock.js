@@ -3,7 +3,6 @@
 // ============================================================================
 
 // 1. LOAD YOUR UPLOADED QGIS SHAPEFILE ASSET
-// Replace 'YOUR_USERNAME_OR_PROJECT' with your actual GEE asset path:
 var aoi_table = ee.FeatureCollection('projects/extreme-casing-358517/assets/ArialBeel85km24326').geometry();
 Map.centerObject(aoi_table, 12);
 
